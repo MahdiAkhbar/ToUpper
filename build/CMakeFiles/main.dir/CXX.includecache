@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Foo.h
+
+/home/mahdi26/github/Eaglet/ToUpper/app/main.cpp
+iostream
+-
+stdlib.h
+-
+Foo.h
+/home/mahdi26/github/Eaglet/ToUpper/app/Foo.h
+
